@@ -16,7 +16,7 @@ const Detail = () => {
   useEffect(() => {
     getMovie();
   }, []);
-  return <div>{loading ? <h1>Loading..</h1> : movie}</div>;
+  return <div>{loading ? <h1>Loading..</h1> : null}</div>;
 };
 
 export default Detail;
